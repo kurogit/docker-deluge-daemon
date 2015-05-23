@@ -4,6 +4,8 @@
 
 A Dockerfile for [Deluge](http://deluge-torrent.org/). Daemon only. For use with the GUI Client.
 
+Slightly based on [aostanin/deluge](https://registry.hub.docker.com/u/aostanin/deluge/).
+
 ## Volumes
 
 ### `/data`
