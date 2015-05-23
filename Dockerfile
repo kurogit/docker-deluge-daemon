@@ -5,6 +5,7 @@ RUN pacman -Sy --noconfirm
 RUN pacman -S --noconfirm python2-mako deluge unrar unzip
 
 ADD start.sh /start.sh
+RUN chmod +x /start.sh
 
 VOLUME ["/data"]
 # Torrent port
